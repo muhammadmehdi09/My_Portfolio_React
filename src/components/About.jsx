@@ -8,25 +8,20 @@ const About = () => {
         <h1 className='text-[#07374a] text-[2.5rem] font-semibold text-center'>About Me</h1>
       </div>
       <p className="text-[1.2rem] text-[#f0f0e6] text-center px-18 lg:px-24 2xl:px-32 py-0 mt-12">
-        Hey there, I am Mehdi. At just 14 years old, I'm deeply engrossed in web development, juggling my Cambridge
-        A Levels examinations with a fervent pursuit of coding. Proficient in HTML, CSS, Tailwind CSS, JavaScript,
-        and TypeScript, I am continually broadening my expertise to encompass Python, MERN Stack, AI, and Chatbot
-        development. The thrill of problem-solving and the art of crafting user-friendly interfaces captivate me.
-        I derive immense satisfaction from simplifying complexities and ensuring seamless user experiences.
-
-        Fuelled by an insatiable thirst for knowledge, I relish diving into new challenges. Each concept mastered
-        fuels my eagerness to explore further, embracing the ever-expanding horizons of technology. Beyond formal
-        education, I am committed to self-directed learning, leveraging online resources and seeking mentorship to
-        enhance my skills.
-
-        Navigating my roles as both a student and a web developer, I am propelled by relentless curiosity and an
-        unwavering resolve to push boundaries. With each line of code written and every problem solved, I inch closer
-        to realizing my aspirations in this dynamic field. The journey of learning is not just a passion but a way of
-        life for me – the more I learn, the more fulfilled I become.
+        Hey there, I am M.Mehdi. I am 16 year old full stack developer and am proficient in HTML, CSS, Tailwind CSS, 
+        JavaScript, Python and MERN Stack. I am expanding my circle of expertise to AI, Machine Learning, and Chatbot 
+        development. I enjoy problem-solving and find satisfaction in breaking down complex ideas into simple, intuitive 
+        solutions. I love to learn new things. Whether it’s exploring new technologies, tackling unfamiliar challenges, 
+        or refining my existing skills, I’m always eager to improve. Alongside my formal education, I self-learn through 
+        online resources, hands-on projects, and guidance from more experienced developers. Balancing my life as both a 
+        student and a developer, I’m guided by curiosity, consistency, and a desire to push my limits. Every project I 
+        build and every problem I solve brings me closer to my goals in this evolving field. For me, learning isn’t 
+        just a phase—it’s a lifelong journey, and it’s one I truly enjoy.
       </p>
     </div>
   </section>
   )
 }
+
 
 export default About
