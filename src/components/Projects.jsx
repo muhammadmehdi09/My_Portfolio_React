@@ -14,11 +14,10 @@ const Projects = () => {
           <img src={Project1} className="w-[450px]" alt='' />
           <p className="font-semibold text-base sm:text-2xl text-center text-[#25b79f] mt-2">TextUtils</p>
           <div className="mx-auto w-fit mt-2 grid grid-cols-1 xl:grid-cols-2">
-            <a href="https://textutilsx.vercel.app/"><button
-              className="bg-green-500 rounded-xl px-9 py-3 text-[#f0f0e6] font-semibold text-xl m-1">Live Demo</button></a>
-            <a href="https://github.com/muhammadmehdi09/textutils/">
-              <button className="bg-red-500 rounded-xl px-7 text-[#f0f0e6] py-3 font-semibold text-xl m-1">Source
-                Code</button>
+            <a href="https://textutilsx.vercel.app" className="h-fit bg-green-500 rounded-xl text-center px-5 py-3 text-[#f0f0e6] font-semibold text-xl m-1">
+              <button>Live Demo</button></a>
+            <a href="https://github.com/muhammadmehdi09/textutils/" className="h-fit pb-3 pt-2 text-center bg-red-500 rounded-xl text-[#f0f0e6] font-semibold text-xl m-1">
+              <button>Source Code</button>
             </a>
           </div>
         </div>
@@ -26,11 +25,10 @@ const Projects = () => {
           <img src={Project2} className="w-[450px]" alt='' />
           <p className="font-semibold text-base sm:text-2xl text-center text-[#25b79f] mt-2">Calculator</p>
           <div className="mx-auto w-fit mt-2 grid grid-cols-1 xl:grid-cols-2">
-            <a href="https://mehdi-calculator.vercel.app"><button
-              className="bg-green-500 rounded-xl px-9 py-3 text-[#f0f0e6] font-semibold text-xl m-1">Live Demo</button></a>
-            <a href="https://github.com/muhammadmehdi09/Calculator">
-              <button className="bg-red-500 rounded-xl px-7 text-[#f0f0e6] py-3 font-semibold text-xl m-1">Source
-                Code</button>
+            <a href="https://mehdi-calculator.vercel.app" className="h-fit bg-green-500 rounded-xl text-center px-5 py-3 text-[#f0f0e6] font-semibold text-xl m-1">
+              <button>Live Demo</button></a>
+            <a href="https://github.com/muhammadmehdi09/Calculator" className="h-fit pb-3 pt-2 text-center bg-red-500 rounded-xl text-[#f0f0e6] font-semibold text-xl m-1">
+              <button>Source Code</button>
             </a>
           </div>
         </div>
@@ -38,11 +36,10 @@ const Projects = () => {
           <img src={Project3} className="w-[450px]" alt='' />
           <p className="font-semibold text-base sm:text-2xl text-center text-[#25b79f] mt-2">Weather Forecast App</p>
           <div className="mx-auto w-fit mt-2 grid grid-cols-1 xl:grid-cols-2">
-            <a href="https://mehdi-weather-app.vercel.app"><button
-              className="bg-green-500 rounded-xl px-9 py-3 text-[#f0f0e6] font-semibold text-xl m-1">Live Demo</button></a>
-            <a href="https://github.com/muhammadmehdi09/Weather-App">
-              <button className="bg-red-500 rounded-xl px-7 text-[#f0f0e6] py-3 font-semibold text-xl m-1">Source
-                Code</button>
+            <a href="https://mehdi-weather-app.vercel.app" className="h-fit bg-green-500 rounded-xl text-center px-5 py-3 text-[#f0f0e6] font-semibold text-xl m-1">
+              <button>Live Demo</button></a>
+            <a href="https://github.com/muhammadmehdi09/Weather-App" className="h-fit pb-3 pt-2 text-center bg-red-500 rounded-xl text-[#f0f0e6] font-semibold text-xl m-1">
+              <button>Source Code</button>
             </a>
           </div>
         </div>
