@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className='navbar fixed w-full z-[500]'>
       <div className='navbar-max-w-[1200px] flex justify-between items-center h-16 max-w-[1200px] w-[90%] m-auto'>
         <div className="mt-6 hidden min-[625px]:flex">
-          <img src="Images/Logo.png" className="w-12 mr-4" alt='' />
+          <img src="assets/Logo.png" className="w-12 mr-4" alt='' />
           <h1
             className='font-semibold text-xl inline-block text-[#2798bb] transition-[color] duration-[1s] ease-[ease] delay-[0s] mt-2'>
             Muhammad Mehdi</h1>

@@ -1,4 +1,7 @@
 import React from 'react'
+import Project1 from '../assets/Project1.jpg'
+import Project2 from '../assets/Project2.jpg'
+import Project3 from '../assets/Project3.jpg'
 
 const Projects = () => {
   return (
@@ -8,7 +11,7 @@ const Projects = () => {
       </div>
       <div className="grid xl:grid-cols-3 grid-cols-1 w-fit mx-auto mb-44">
         <div className="bg-[#07374a] w-fit p-4 m-5 rounded-md hover:scale-110 duration-500">
-          <img src="../Images/Project1.png" className="w-[450px]" alt='' />
+          <img src={Project1} className="w-[450px]" alt='' />
           <p className="font-semibold text-base sm:text-2xl text-center text-[#25b79f] mt-2">TextUtils</p>
           <div className="mx-auto w-fit mt-2 grid grid-cols-1 xl:grid-cols-2">
             <a href="https://textutilsx.vercel.app/"><button
@@ -19,8 +22,8 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="bg-[#07374a] w-fit p-4 m-5 rounded-md hover:scale-110 duration-500">
-          <img src="Images/Project2.jpg" className="w-[450px]" alt='' />
+        <div className="bg-[rgb(7,55,74)] w-fit p-4 m-5 rounded-md hover:scale-110 duration-500">
+          <img src={Project2} className="w-[450px]" alt='' />
           <p className="font-semibold text-base sm:text-2xl text-center text-[#25b79f] mt-2">Calculator</p>
           <div className="mx-auto w-fit mt-2 grid grid-cols-1 xl:grid-cols-2">
             <a href="https://mehdi-calculator.vercel.app"><button
@@ -32,7 +35,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="bg-[#07374a] w-fit p-4 m-5 rounded-md hover:scale-110 duration-500">
-          <img src="Images/Project3.jpg" className="w-[450px]" alt='' />
+          <img src={Project3} className="w-[450px]" alt='' />
           <p className="font-semibold text-base sm:text-2xl text-center text-[#25b79f] mt-2">Weather Forecast App</p>
           <div className="mx-auto w-fit mt-2 grid grid-cols-1 xl:grid-cols-2">
             <a href="https://mehdi-weather-app.vercel.app"><button
